@@ -1,11 +1,21 @@
+:root {
+    --primary-color: #113f67;
+    --secondary-color: #f9fbfc;
+}
+
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(/images/basicbackground.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(/images/backgroundcoffee.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: none;
+  background-attachment: fixed;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+}
+
+body {
+  background: var(--secondary-color);
 }
 
 h1,
@@ -15,22 +25,45 @@ h2 {
 
 .hero-text {
   text-align: center;
-  padding: 150px 0;
-  color: whitesmoke;
+  padding-top: 200px;
+  color: var(--secondary-color);
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 96px;
   line-height: 1.2;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: normal;
   line-height: 1.2;
 }
 
 p {
-  font-size: 20px;
+  font-size: 26px;
+}
+
+.home-body {
+  color: #481422;
+}
+
+.top-nav-links a {
+  margin: 30px;
+  color: white;
+  background: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  padding: 10px 25px;
+  text-decoration: none;
+}
+.artwork-link,
+.weather-app-links a {
+   color: white;
+  background: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  padding: 10px 25px;
+  text-decoration: none; 
 }
 

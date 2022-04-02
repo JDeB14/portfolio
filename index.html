@@ -23,49 +23,55 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container-fluid hero-image">
+    <div class="container-fluid mb-5 hero-image">
       <div class="hero-text">
         <h1>Jae DeBerry</h1>
         <h3>Front-end Developer 👩🏾‍💻, Optometrist 👩🏾‍⚕️, Artist 👩🏾‍🎨</h3>
         <p class="mb-5">
           <i class="fa-solid fa-location-dot"></i> Memphis, Tennessee 🇺🇸
         </p>
-        <a href="#" class="btn btn-primary">Contact Me</a>
-        <a href="#" class="btn btn-primary">About Me</a>
+        <div class="top-nav-links">
+          <a href="#" class="contact-link">Contact Me</a>
+          <a href="#" class="about-link">About Me</a>
+        </div>
       </div>
     </div>
-    <h2>My Latest Projects</h2>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <img
-            src="/images/weatherappimg.png"
-            alt="weather-app"
-            class="img-fluid shadow p-1 weather-img"
-          />
+    <div class="home-body">
+      <h2 class="mb-5">My Latest Projects</h2>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-sm-6">
+            <img
+              src="/images/weatherappimg.png"
+              alt="weather-app"
+              class="img-fluid shadow p-1 weather-img"
+            />
+          </div>
+          <div class="col-sm-6">
+            <h3>Weather App</h3>
+            <p>
+              Live weather application built with HTML, CSS, Vanilla Javascript,
+              APIs, and Bootstrap.
+            </p>
+            <div class="weather-app-links">
+              <a href="#" class="btn btn-primary">Launch App</a>
+              <a href="#" class="btn btn-primary">More Projects</a>
+            </div>
+          </div>
         </div>
-        <div class="col-sm-6">
-          <h3>Weather App</h3>
-          <p>
-            Live weather application built with HTML, CSS, Vanilla Javascript,
-            APIs, and Bootstrap.
-          </p>
-          <a href="#" class="btn btn-success">Launch App</a>
-          <a href="#" class="btn btn-success">More Projects</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <h3>Hazel-eyed Beauty</h3>
-          <p>Thousands of tiny gems were used to create this art piece!</p>
-          <a href="#" class="btn btn-success">More Artwork</a>
-        </div>
-        <div class="col-sm-6">
-          <img
-            src="/images/hazel-eyes.JPG"
-            alt="latest artwork"
-            class="img-fluid p-1 weather-img"
-          />
+        <div class="row mb-5">
+          <div class="col-sm-6">
+            <h3>Hazel-eyed Beauty</h3>
+            <p>Thousands of tiny gems were used to create this art piece!</p>
+            <a href="#" class="artwork-link">More Artwork</a>
+          </div>
+          <div class="col-sm-6">
+            <img
+              src="/images/hazel-eyes.JPG"
+              alt="latest artwork"
+              class="img-fluid p-1 weather-img"
+            />
+          </div>
         </div>
       </div>
     </div>
