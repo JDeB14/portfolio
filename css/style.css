@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #113f67;
-  --secondary-color: #f9fbfc;
+  --primary-color: #0b409c;
+  --secondary-color: black;
 }
 
 .hero-image {
@@ -15,7 +15,7 @@
 }
 
 body {
-  background: var(--secondary-color);
+  background: #e3e3e3;
 }
 
 h1,
@@ -26,7 +26,9 @@ h2 {
 .hero-text {
   text-align: center;
   padding-top: 200px;
-  color: var(--secondary-color);
+  color: ghostwhite;
+  text-shadow: 0 0 1px var(--primary-color), 0 0 1px var(--primary-color),
+    0 0 1px var(--primary-color), 0 0 1px var(--primary-color);
 }
 
 h1 {
@@ -44,29 +46,39 @@ p {
   font-size: 26px;
 }
 
+.fa-solid {
+  color: var(--primary-color);
+}
+
 .app-paragraph {
   font-size: 20px;
   line-height: 1.5;
 }
 
 .home-body {
-  color: #481422;
+  color: black;
+}
+
+.top-nav-links {
+  display: flex;
+  justify-content: center;
 }
 
 .top-nav-links a {
-  margin: 30px;
-  color: white;
+  margin: 20px;
+  color: ghostwhite;
   background: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  border: 1px solid whitesmoke;
   border-radius: 4px;
   padding: 15px 25px;
   text-decoration: none;
 }
-.artwork-link,
-.weather-app-links a {
+
+.my-projects-link,
+.artwork-link {
   color: white;
-  background: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  background: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
   border-radius: 4px;
   padding: 15px 25px;
   text-decoration: none;
