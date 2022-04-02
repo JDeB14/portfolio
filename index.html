@@ -20,13 +20,20 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/css/style.css" />
+    <script src="/app.js"></script>
     <title>Document</title>
   </head>
   <body>
     <div class="container-fluid mb-5 hero-image">
       <div class="hero-text">
         <h1>Jae DeBerry</h1>
-        <h3>Front-end Developer 👩🏾‍💻, Optometrist 👩🏾‍⚕️, Artist 👩🏾‍🎨</h3>
+        <h3>
+          <span
+            class="txt-rotate"
+            data-period="2000"
+            data-rotate='[ "Front-end Developer", "Optometrist", "Artist" ]'
+          ></span>
+        </h3>
         <p class="mb-5">
           <i class="fa-solid fa-location-dot"></i> Memphis, Tennessee 🇺🇸
         </p>
@@ -48,8 +55,8 @@
             />
           </div>
           <div class="col-sm-6">
-            <h3>Weather App</h3>
-            <p>
+            <h3 class="mb-4">Weather App</h3>
+            <p class="app-paragraph mb-5">
               Live weather application built with HTML, CSS, Vanilla Javascript,
               APIs, and Bootstrap.
             </p>
@@ -61,8 +68,11 @@
         </div>
         <div class="row mb-5">
           <div class="col-sm-6">
-            <h3>Hazel-eyed Beauty</h3>
-            <p>Thousands of tiny gems were used to create this art piece!</p>
+            <h3 class="mb-4">Hazel-eyed Beauty</h3>
+            <p class="app-paragraph mb-5">
+              This is my latest piece of artwork. I used thousands of tiny,
+              shiny gems to create this hazel-eyed beauty!
+            </p>
             <a href="#" class="artwork-link">More Artwork</a>
           </div>
           <div class="col-sm-6">
