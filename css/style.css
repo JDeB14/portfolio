@@ -30,8 +30,9 @@ h3 {
   text-align: center;
   padding-top: 200px;
   color: ghostwhite;
-  text-shadow: 0 0 1px var(--primary-color), 0 0 1px var(--primary-color),
-    0 0 1px var(--primary-color), 0 0 1px var(--primary-color);
+  text-shadow: 0 0 10px var(--primary-color), 0 0 10px var(--primary-color),
+    0 0 10px var(--primary-color), 0 0 10px var(--primary-color),
+    0 0 10px var(--primary-color);
 }
 
 h1 {
