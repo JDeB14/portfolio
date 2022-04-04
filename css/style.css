@@ -2,7 +2,7 @@
   --primary-color: #2154a5;
   --secondary-color: #cb9bba;
   --neutral-color: #e3e3e3;
-  --box-shadow: 5px 5px 10px black;
+  --box-shadow: 4px 4px 8px black;
 }
 
 .hero-image {
@@ -60,18 +60,30 @@ a {
   font-family: "Nunito", sans-serif;
 }
 
-.break {
-  position: relative;
-  bottom: 120px;
-  text-align: center;
-  font-size: 100px;
-  color: var(--secondary-color);
-}
-
 .fa-solid {
   color: var(--primary-color);
-  text-shadow: 0 0 1px ghostwhite, 0 0 1px ghostwhite, 0 0 1px ghostwhite,
-    0 0 1px ghostwhite;
+  text-shadow: 0 0 3px ghostwhite, 0 0 3px ghostwhite, 0 0 3px ghostwhite,
+    0 0 3px ghostwhite;
+}
+
+#arrow-down {
+  text-align: center;
+  font-size: 70px;
+  position: relative;
+  top: 90px;
+}
+
+#arrow-down:hover {
+  font-size: 80px;
+}
+
+#latest-projects {
+  margin: 0 100px;
+  background: var(--primary-color);
+  color: ghostwhite;
+  border: 4px solid var(--secondary-color);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
 }
 
 .app-paragraph {
@@ -85,6 +97,11 @@ a {
   box-shadow: var(--box-shadow);
   padding: 20px;
   background: var(--secondary-color);
+}
+
+.home-img:hover {
+  box-shadow: none;
+  padding: 10px;
 }
 
 .home-body {
@@ -140,5 +157,42 @@ a {
   border-radius: 10px;
   padding: 15px 25px;
   text-decoration: none;
-  font-weight: bold;
+  font-size: 18px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+
+  .home-body {
+    text-align: center;
+  }
+  #arrow-down {
+    position: relative;
+    top: 80px;
+    font-size: 50px;
+  }
+  #latest-projects {
+    margin: 0 10px;
+  }
+
+  .weather-col,
+  .hazel-img-col {
+    margin-top: 40px;
+  }
+
+  .my-projects-link,
+  .artwork-link {
+    display: block;
+  }
+}
+
+@media (min-width: 900px) {
+  #latest-projects {
+    margin: 0 200px;
+  }
 }
