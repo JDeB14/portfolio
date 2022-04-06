@@ -10,9 +10,9 @@
     url(/images/backgroundcoffee.jpg);
   background-position: center;
   background-size: cover;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 
@@ -28,7 +28,7 @@ h3 {
 
 .hero-text {
   text-align: center;
-  padding-top: 200px;
+  padding-top: 100px;
   color: ghostwhite;
   text-shadow: 0 0 10px var(--primary-color), 0 0 10px var(--primary-color),
     0 0 10px var(--primary-color), 0 0 10px var(--primary-color),
