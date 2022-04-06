@@ -3,6 +3,12 @@
   --secondary-color: #cb9bba;
   --neutral-color: #e3e3e3;
   --box-shadow: 4px 4px 8px black;
+  --heading-font-family: "Kaushan Script", cursive;
+  --secondary-font-family: "Nunito", sans-serif;
+}
+
+body {
+  background: var(--neutral-color);
 }
 
 .hero-image {
@@ -12,23 +18,17 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  width: 100vw;
-  height: 100vh;
-}
-
-body {
-  background: var(--neutral-color);
+  padding: 150px 0;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Kaushan Script", cursive;
+  font-family: var(--heading-font-family);
 }
 
-.hero-text {
+.hero-content {
   text-align: center;
-  padding-top: 100px;
   color: ghostwhite;
   text-shadow: 0 0 10px var(--primary-color), 0 0 10px var(--primary-color),
     0 0 10px var(--primary-color), 0 0 10px var(--primary-color),
@@ -54,10 +54,10 @@ h3 {
 
 p {
   font-size: 26px;
-  font-family: "Nunito", sans-serif;
+  font-family: var(--secondary-font-family);
 }
 a {
-  font-family: "Nunito", sans-serif;
+  font-family: var(--secondary-font-family);
 }
 
 .fa-solid {
