@@ -184,10 +184,12 @@ a {
   font-size: 20px;
   line-height: 1.5;
   padding: 0 20px;
+  font-weight: 300;
 }
 
 strong {
   color: var(--primary-color);
+  font-weight: 400;
 }
 
 .about-h2 {
@@ -201,14 +203,16 @@ strong {
 ul {
   list-style: none;
   padding-left: 0;
-  font-size: 18px;
+  font-size: 20px;
   font-family: var(--secondary-font-family);
 }
 
 .about-icon {
   color: var(--secondary-color);
+  font-size: 28px;
   text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
 }
+
 
 @media (max-width: 576px) {
   h1 {
