@@ -60,7 +60,7 @@ a {
   font-family: var(--secondary-font-family);
 }
 
-.fa-solid {
+.home-icon {
   color: var(--primary-color);
   text-shadow: 0 0 3px ghostwhite, 0 0 3px ghostwhite, 0 0 3px ghostwhite,
     0 0 3px ghostwhite;
@@ -152,12 +152,62 @@ a {
 .my-projects-link:hover,
 .artwork-link:hover {
   color: var(--primary-color);
-  background: transparent;
+  background: var(--neutral-color);
   border: 2px solid var(--primary-color);
   border-radius: 10px;
   padding: 15px 25px;
   text-decoration: none;
   font-size: 18px;
+}
+
+.about-me {
+  margin: 50px auto 0 auto;
+  padding: 30px;
+}
+
+.about-title {
+  background: var(--primary-color);
+  color: ghostwhite;
+  border: 5px solid var(--secondary-color);
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+}
+.jae {
+  border: 5px ridge var(--secondary-color);
+  border-radius: 20px;
+  padding: 3px;
+  box-shadow: var(--box-shadow);
+  background: var(--primary-color);
+}
+
+.about-p {
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 0 20px;
+}
+
+strong {
+  color: var(--primary-color);
+}
+
+.about-h2 {
+  background: var(--primary-color);
+  color: ghostwhite;
+  border: 4px solid var(--secondary-color);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 18px;
+  font-family: var(--secondary-font-family);
+}
+
+.about-icon {
+  color: var(--secondary-color);
+  text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
 }
 
 @media (max-width: 576px) {
