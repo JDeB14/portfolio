@@ -59,6 +59,10 @@ h4 {
   text-align: center;
 }
 
+h5 {
+  font-size: 35px;
+}
+
 p {
   font-size: 26px;
   font-family: var(--secondary-font-family);
@@ -293,6 +297,14 @@ ul {
   .my-projects-link,
   .artwork-link {
     display: block;
+  }
+
+  .work-slider {
+  max-width: 80%;
+}
+
+  h5 {
+    font-size: 24px;
   }
   .regular-link {
     margin-right: 20px;
