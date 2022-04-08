@@ -199,6 +199,17 @@ strong {
   font-weight: 400;
 }
 
+.regular-link {
+  color: ghostwhite;
+  font-weight: bolder;
+  background: var(--secondary-color);
+  border: 3px solid var(--primary-color);
+  padding: 5px 10px;
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+  font-size: 18px;
+}
+
 .about-h2 {
   background: var(--primary-color);
   color: ghostwhite;
@@ -242,6 +253,17 @@ ul {
   text-align: center;
   line-height: 1.3;
 }
+.work-slider {
+  max-width: 60%;
+}
+
+.img-slider img {
+  padding: 35px;
+  background: var(--secondary-color);
+  border: 10px ridge var(--primary-color);
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+}
 
 @media (max-width: 576px) {
   h1 {
@@ -271,6 +293,9 @@ ul {
   .my-projects-link,
   .artwork-link {
     display: block;
+  }
+  .regular-link {
+    margin-right: 20px;
   }
 }
 
