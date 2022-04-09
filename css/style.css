@@ -229,7 +229,6 @@ ul {
   font-family: var(--secondary-font-family);
 }
 
-
 .about-icon {
   color: var(--secondary-color);
   font-size: 28px;
@@ -269,6 +268,24 @@ ul {
   border-radius: 4px;
   box-shadow: var(--box-shadow);
 }
+.contact-heading {
+  margin: 100px 10px;
+  font-size: 70px;
+  color: var(--primary-color);
+}
+.contact-content div {
+  margin: 0 20px;
+}
+.contact-content h2 {
+  font-size: 60px;
+}
+.contact-icon {
+  color: var(--primary-color);
+}
+.contact-content a {
+  text-decoration: none;
+  font-size: 28px;
+}
 
 @media (max-width: 576px) {
   h1 {
@@ -301,14 +318,20 @@ ul {
   }
 
   .work-slider {
-  max-width: 80%;
-}
+    max-width: 80%;
+  }
 
   h5 {
     font-size: 24px;
   }
   .regular-link {
     margin-right: 20px;
+  }
+  .contact-heading {
+    font-size: 50px;
+  }
+  .contact-content h2 {
+    font-size: 40px;
   }
 }
 
