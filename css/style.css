@@ -187,7 +187,7 @@ a {
 }
 
 .title-spacing {
-  margin: 60px auto 0 auto;
+  margin: 50px auto 0 auto;
   padding: 30px;
 }
 
@@ -198,6 +198,11 @@ a {
   border-radius: 20px;
   box-shadow: var(--box-shadow);
 }
+
+.project-title-spacing {
+  margin-top: 80px;
+}
+
 .jae {
   border: 5px ridge var(--secondary-color);
   border-radius: 20px;
