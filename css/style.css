@@ -14,6 +14,10 @@
   font-size: 30px;
 }
 
+.nav-link {
+  font-size: 18px;
+}
+
 body {
   background: var(--neutral-color);
 }
