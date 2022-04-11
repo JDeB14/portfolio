@@ -299,12 +299,30 @@ ul {
 .contact-content h2 {
   font-size: 60px;
 }
-.contact-icon {
-  color: var(--primary-color);
-}
+
 .contact-content a {
   text-decoration: none;
   font-size: 28px;
+}
+
+footer {
+  background: rgba(203, 155, 186, 0.75);
+  height: 120px;
+}
+footer .contact-icon {
+  color: var(--neutral-color);
+  background: var(--primary-color);
+  padding: 10px 12px;
+  border-radius: 50%;
+  font-size: 24px;
+  margin: 10px 20px 20px 20px;
+}
+footer .contact-icon:hover {
+  color: var(--primary-color);
+  background: var(--neutral-color);
+}
+footer p {
+  font-size: 16px;
 }
 
 @media (max-width: 576px) {
