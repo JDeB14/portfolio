@@ -7,6 +7,10 @@
   --secondary-font-family: "Nunito", sans-serif;
 }
 
+body {
+  background: var(--neutral-color);
+}
+
 #brand {
   padding: 0 6px;
   border: 4px solid black;
@@ -20,10 +24,6 @@
 
 .nav-link {
   font-size: 18px;
-}
-
-body {
-  background: var(--neutral-color);
 }
 
 .hero-image {
@@ -81,9 +81,9 @@ h5 {
 
 p {
   font-size: 26px;
-  font-family: var(--secondary-font-family);
 }
-a {
+a,
+p {
   font-family: var(--secondary-font-family);
 }
 
@@ -205,7 +205,7 @@ a {
   margin-top: 70px;
 }
 
-.jae {
+.jae-img {
   border: 5px ridge var(--secondary-color);
   border-radius: 20px;
   padding: 3px;
@@ -234,6 +234,10 @@ strong {
   box-shadow: var(--box-shadow);
   border-radius: 10px;
   font-size: 18px;
+}
+
+.regular-link:hover {
+  box-shadow: none;
 }
 
 .about-h2 {
